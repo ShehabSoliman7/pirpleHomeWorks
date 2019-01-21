@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Javascripting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+    <header>
+        <h1 class="special">JavaScript</h1>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li>|  About</li>
+                <li>|  Home  |</li>
+                <li>Contact  |</li>
+            </ul>
+            <h1 class="declare">JavaScript Learning Sheet</h1>
+        </nav>
+<!--------------------------------First Section: Coding in JS----------------->
+        <section>
+            <header>
+                <h2 id="section1">Coding in JS</h2>
+            </header>
+            <article>
+                <div>
+                    <ol>
+                        <li>&lt;script&gt; document.write("&lt;p&gt;This code from JS&lt;/p&gt;"); &lt;/script&gt; &nbsp;&nbsp;&nbsp;((Internal Code))</li>
+                        <li> &lt;script src="main.js" &gt; &lt;/script&gt; &nbsp;&nbsp; ((External File))</li>
+                    </ol>
+                </div>
+            </article>
+        </section>
+    <!---------------------------------Second Section: where to put JS code-------------------------->
+        <section>
+            <header>
+                <h2 id="section2">Where to put JS code</h2>
+            </header>
+            <article>
+                <div>
+                    <ol>
+                        <li>Javascript code is put before body closing tag.</li>
+                        <li>It can be any where like between head tags or body tags but it is preferred to put it before the body closing tag, just in case that there's an issue in the Js code. As by doing so the rest of the page will run smoothly and is not interrupted because the Js code's crash.</li>
+                    </ol>
+                </div>
+            </article>
+        </section>
+<!---------------------------------------Third Section:JS Syntax------------------------------------->
+        <section >
+            <header>
+                <h2 id="section3">JS Syntax</h2>
+            </header>
+            <article>
+                <div>
+                    <ul>
+                        <li>document.getElementById("test").innerHTML = "hello";</li>
+                        <li>document.write("&lt;p&gt; JS div &lt;/p&gt;");</li>
+                        <li>alert("Hello There !")</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+<!--------------------------------------Forth Section:JS Comments------------------------------------>
+        <section>
+                <header>
+                    <h2 id="section4">Comments In JS</h2>
+                </header>
+                <article>
+                    <div>
+                        <ul>
+                            <li>" //This is single-line comment. "</li>
+                            <li>" /* This is <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a multiple-line<br>
+                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;comment.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; */ "</li>
+                        </ul>
+                    </div>
+                </article>
+        </section>
+<!---------------------------------------Fifth Section:JS Variables---------------------------------->
+        <section>
+            <header>
+                <h2 id="section5">JS Variables</h2>
+            </header>
+            <article>
+                <div>
+                    <ul>
+                        <li>var X = 10; &nbsp;&nbsp;&nbsp; ((single variable identification))</li>
+                        <li>var X = 10,<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Y = 20,<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Z = 30; &nbsp;&nbsp;&nbsp; ((multiple-variable identification))
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </section>        
+<!---------------------------------------Sixth Section:JS Concatination---------------------------------->
+        <section>
+            <header>
+                <h2 id="section6">JS Concatination</h2>
+            </header>
+            <article>
+                <div>
+                    <ul>
+                        <li>var x = 50,<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;y = "Osama",<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;z = x + y<br>
+                       alert(z); --> 50Osama
+                        <li>var x = 50,<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;y = "50",<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;z = x + y<br>
+                       alert(z); --> 5050
+                        <li>var x = 5,<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;y = 10,<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;m = "20",<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;z = x + y + m<br>
+                       alert(z); -->1520 &nbsp;&nbsp;&nbsp;((5+10=15; 15 + "20" [The number converts to string 15 to "15"] = 1520))
+                    </ul>
+                </div>
+            </article>
+        </section>     
+        
+        <!---------------------------------------Seventh Section:JS Mathematical Operators---------------------------------->
+        
+        <section>
+            <header>
+                <h2 id="section7">JS Mathematical Operators</h2>
+            </header>
+            <article>
+                <div>
+                    <ul>
+                        <li>( + ) Addition Operator.</li>    
+                        <li>( - ) Substraction Operator.</li>    
+                        <li>( * ) Multiplication Operator.</li>    
+                        <li>( / ) Division Operator.</li>    
+                        <li>( % ) Modulation Operator: Used to get the remainder of the devision.</li>    
+                    </ul>
+                </div>
+            </article>
+        </section>          
+        <!---------------------------------------Eighth Section:JS Conditional Operators---------------------------------->
+        
+        <section>
+            <header>
+                <h2 id="section8">JS Conditional Operators</h2>
+            </header>
+            <article>
+                <div>
+                    <ul>
+                        <li>( = ) Assignment Operator : Used to assign a new value for the variable.</li>    
+                        <li>( == ) Comparison Operator : Used to compare values in conditions.</li>    
+                        <li>( === ) Identity Operator : Used to compare both values and data type in conditions.</li>
+                        <li>( !=) Not equal in value.</li>
+                        <li>( !==) Not equal in value OR in data type.</li>
+                        <li>( > ) Greater than.</li>
+                        <li>( &lt; ) Less than.</li>
+                        <li>( >= ) Greater than OR Equal. (( notice the equal sign is on the right ))</li>
+                        <li>( &lt;= ) Less than OR Equal. ((notice the equal sign in on the right ))</li>
+                    </ul>
+                </div>
+            </article>
+        </section>        
+        
+        <!---------------------------------------Ninth Section:JS Logical Operators---------------------------------->
+        
+        <section>
+            <header>
+                <h2 id="section9">JS Logical Operators</h2>
+            </header>
+            <article>
+                <div>
+                    <ul>
+                        <li>( ! ) NOT</li>
+                        <li>( && ) AND</li>
+                        <li>( || ) OR</li>
+                    </ul>
+                </div>
+            </article>
+        </section>        
+<!---------------------------------------Ninth Section:JS Logical Operators---------------------------------->
+        <section>
+            <header>
+                <h2 id="section10">JS Functions</h2>
+            </header>
+            <article>
+                <div>
+                    <ul>
+                        <li>To Define a Function<br>
+                        </li>function myFunc() {<br>
+                            "use strict";<br>
+                            var age = 20;<br>
+                        }<br>
+                        document.getElementById('test').innerHTML = age;<br>
+                        ( Error --> nothing happens: because what happens in the function stays within it unless something is specified with "return") 
+                        <li>Function Return<br>
+                        function myFunc() {<br>
+                        "use strict";<br>
+                        var age = 20;<br>
+                        return ("Your age is ") + age;<br>
+                        }</li>
+                        <li>Function Parameters<br>
+                        function myFunc(age) {<br>
+                        "use strict";<br>
+                        return ("Your age is ") + age;<br>
+                        }</li>
+                        <li>Function Self-Invoke<br>
+                        ( function age(){<br>
+                            "use strict";<br>
+                            var myAge = 20;<br>
+                        })();</li>
+                    </ul>
+                </div>
+            </article>
+        </section>        
+<!---------------------------------------Tenth Section:Switch & Case------------------------------------->
+        <section >
+                <header>
+                    <h2 id="section3">Switch & Case</h2>
+                </header>
+                <article>
+                    <div>
+                        <ul>
+                            <li>switch ( variable ) {<br>
+                            case value 1:<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;code to execute;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;<br>
+                            case x:<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;code to execute;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;<br>
+                            case x:<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;code to execute;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;<br>
+                            case x:<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;code to execute;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;<br>
+                            }</li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+
+
+
+
+
+        <footer>
+            <p>This website is created by <cite>Shehab Soliman</cite>.</p>
+        </footer>
+    </main>
+    
+<!------------------------------------------Side Bar-------------------------------------------------------->
+    
+    <aside>
+        <h3 style="text-align: center;font-size:150%;">Quick Access Bar</h3>
+        <div class="vo" style="margin-bottom:20px">
+            <a href="#section1">Coding in JS</a>
+            <a href="#section2">Where to put JS code</a>
+            <a href="#section3">JS Syntax</a>
+            <a href="#section4">Comments In JS</a>
+            <a href="#section5">JS Variables</a>
+            <a href="#section6">JS Concatination</a>
+            <a href="#section7">JS Mathematical Operators</a>
+            <a href="#section8">JS Conditional Operators</a>
+            <a href="#section9">JS Logical Operators</a>
+        </div>
+        <!--<div class="vo" style="margin-bottom:20px">Nothing here to appear. Come again and listen and hear. Here is where we see a bear. Whenever we do, it disappear. For everyone of us our life is what matters. But what if the common good or at least a more common good than yours is opposing your way, causing the sorrow to surround you and tears to be your permenant fellow.
+        </div>-->
+    </aside>
+</body>
+</html>
