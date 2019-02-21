@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="shortcut icon" type="image/x-icon" href="f2.ico"/>
+    <style>
+
+
+        body{
+            background-color:#ffd;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0;
+            width: 95%;
+            margin: 0 auto;
+        }
+        
+        
+        span{
+            font-style: italic;
+        }
+        .specialspan1{
+            font-style: normal;
+            color:tomato;
+            font-weight:bold;
+            
+        }
+        .specialspan2{
+            font-style:normal;
+            color:crimson;
+            font-weight:bold
+        }
+        .upperimgs{
+            font-size:0;
+            padding:0;
+            margin:0;
+
+        }
+    /************************** Headers **************************************************/
+
+        .topheader p{
+                
+            text-align:center;
+            font-family:Calibri;
+            padding:8px 10px 12px 10px;
+            margin:0;
+        }
+        .topheader{
+            border-radius:0 0 20px 20px;
+            padding:5px 5px 0 5px;
+            background-color:#2de;
+            
+        }
+        
+        h1, h2, h3{
+            text-align: center;
+            font-family: cursive;
+            padding:6px;
+            background-color:#44f;
+            color: snow;
+            margin-bottom:0;
+            border-radius: 10px 10px 0 0;
+        }
+        
+        h1{
+            text-decoration: underline;    
+            margin-top:20;
+        }
+        
+        .unorderedlist{
+            background-color:#2de;
+            list-style-image: url("https://i.imgur.com/lz5cCGI.png");
+            display: inline-block;
+            padding:5px 35px;
+            margin-top:0;
+        }
+        
+         .orderedlist, .unorderedlist{
+            padding-bottom:10px;
+            padding-top:10px;
+            border-radius:0 0 10px 10px;
+        }
+        ol li{
+            padding: 2px;
+        }
+        
+        #exception li a{
+            text-decoration:none;
+            color:#333;
+            font-weight: bold;
+            font-family:cursive;
+
+        }/*** **************************** Lists *******************************************/
+
+        .unorderedlist{
+            
+            background-color:#2de;
+            list-style-image: url("https://i.imgur.com/lz5cCGI.png");
+            padding:5px 35px;
+            margin-top:0;
+            }
+    
+        .orderedlist{
+            background-color:#2de;
+            margin-top:0;
+            list-style: upper-roman;
+            padding-left:12%;
+            display:block;
+    
+        }
+        
+        .changelistimg{
+            list-style-image:url("https://i.imgur.com/9FVB4nZ.png");
+            padding-left:43px;
+        }
+        
+        #exception{
+            background-color:#2de;
+            padding:5px;
+            width: 80%;
+            list-style: none;
+            margin: 0 auto;
+            text-align:center;
+            line-height: 50px;
+            border-radius:0 0 15px 15px;
+}
+        /****************************************** TO CONTAIN ****************************************/
+       #imgcontainer{
+           margin:0 auto;
+           width: 100%;
+           height: auto;
+           overflow: hidden;
+           margin-top: 20px;
+        }
+        
+        #bigimg{
+            width:100%
+        }
+        
+        .clear{
+            clear: both;
+        }
+        
+        @media(max-width:1440px){
+            
+           
+            
+            
+        .topheader p{
+            font-size:32px;
+        }
+
+
+        h3{
+            font-size :38px;
+        }
+
+        h2{
+            font-size: 40px; 
+            
+        }
+
+        h1{font-size:45px;
+            
+        }
+        
+        #exceptionheader{
+            margin:0 auto;
+            width:80%;
+            margin-top:20px;
+        }
+        
+            /*** **************************** Lists *******************************************/
+
+        .unorderedlist{
+            
+           
+            font-size: 20px;
+            width:270px;
+            
+        }
+    
+        .orderedlist{
+    
+            font-size:27px;
+            display:block;
+
+            
+        }
+        
+        #exception{
+            
+            font-size:20px;
+        }
+
+       
+
+        #bigimg{
+            width:100%
+        }
+        .clear{
+            clear: both;
+        }
+        .wholeleft{
+            float: left
+        }
+        
+        .leftside{
+            float: left;
+        }
+        .rightside{
+            float:right;
+            width:62%
+            
+        }
+        
+        }
+        @media (max-width:1024px){
+            body{
+                background-color: aquamarine
+            }
+           
+        .topheader p{
+            font-size:21px;
+            
+
+        }
+       
+
+        h3{
+           font-size:20px;
+        }
+
+        h2{
+            font-size: 30px; 
+            
+        }
+
+        h1{font-size:35px;
+            text-decoration: underline;    
+            margin-top:20;
+        }
+        
+        
+        #exceptionheader{
+            margin:0 auto;
+            width:80%;
+            margin-top:20px;
+        }
+            /*** **************************** Lists *******************************************/
+
+        .unorderedlist{
+            
+            width:170px;
+            
+        }
+    
+        #exception{
+            
+            font-size:20px;
+        }
+
+        .orderedlist, .unorderedlist{
+            padding-bottom:10px;
+            padding-top:10px;
+            border-radius:0 0 10px 10px;
+        }
+    
+         body{
+                background-color:#fff
+            }
+            
+            .topheader, #exception, .unorderedlist, .orderedlist{
+                background-color:blanchedalmond;
+                color:dimgrey;
+            }
+            h1, h2, h3{
+                background-color:cornflowerblue;
+                color:azure
+            }
+        
+
+        .wholeleft{
+            float: left
+        }
+        
+        .leftside{
+            float: left;
+        }
+        .rightside{
+            float:right;
+            width:60%
+            
+        }
+        
+        
+        }
+        @media (max-width:750px) {
+            .wholeleft, .leftside, .rightside{
+                float: none;
+                width:auto;
+            }
+            body{
+                background-color:antiquewhite
+            }
+            
+            
+            
+            .orderedlist, .unorderedlist{
+                display: block;
+                margin: 0 auto;
+                width:auto;
+            }
+            
+            .topheader, #exception, .unorderedlist, .orderedlist{
+                background-color:brown;
+                color:beige
+            }
+            h1, h2, h3{
+                background-color:floralwhite;
+                color:chocolate
+            }
+            #exceptionheader{
+                width:auto;
+            }
+            #exception{
+                width:auto;
+                
+            }
+        }
+        
+        @media (max-width:400px) {
+            h1{font-size:27px}
+            h2{font-size:23px}
+            h3{font-size:20px}
+            .wholeleft, .leftside, .rightside{
+                float: none;
+                width:auto;
+            }
+            body{
+                background-color:aliceblue
+            }
+            .topheader, #exception, .unorderedlist, .orderedlist{
+                background-color:lightcoral;
+                color:whitesmoke;
+            }
+            h1, h2, h3{
+                background-color:powderblue;
+                color:darkslategrey
+            }
+            
+            .orderedlist, .unorderedlist{
+                display: block;
+                margin: 0 auto;
+                font-size:15px;
+                width:auto;
+            }
+            section div img{
+                height:120px;
+            }
+            
+            #exceptionheader{
+                width:auto;
+            }
+            #exception{
+                width:auto;
+                
+            }
+        }
+        }
+    </style>
+    <title>Classes &amp; IDS</title>
+</head>
+<body>
+    <!----------------------------------------------- My favorite meal ----------------------->
+    <h1>Pasta with Meat and Bechamel😋</h1>
+    <!----------------------------------------------- Descriptive images ------------------------------------------>
+    <section class="topheader"><div class="upperimgs"><img src = "https://i.imgur.com/dPbiaCD.jpg" width="35%" height="250px"/>
+    <img  src = "https://i.imgur.com/k2TUClm.jpg" width="30.8%" height="250px"/>
+    <img  src = "https://i.imgur.com/8sS0M3F.jpg" width="34.2%" height="250px"/></div>
+    <!------------------------------------------------------------- Why I like this meal -->
+    <p>I like this meal so much. It's very <span class="specialspan1" >tasty</span>  and <span class ="specialspan2">lovely</span> . Many people argue about the ingredients, some says it must includes eggs and some not. However, the bechamel sauce is the most adorable to me and I think this meal will remain my favorite for a very long time. <strong>People should not stop making bechamel</strong></p>
+    </section>
+    
+            
+    
+    <!-- preparation steps ------------------------------------------------------------------------------>
+
+
+<!-- Favorite meal ingredients ------------------------------------------------------------------------->
+   <div class="wholeleft">
+       <section class="leftside">
+        <h3>Pasta Ingredients</h3> <!-- Brought from: https://forum.hawahome.com/t463583.html -->
+        <ul class="unorderedlist">
+            <li>Pasta</li>
+            <li>Mince Meat mix</li>
+            <li>Oil, Onion, Spices</li>
+        </ul>
+    </section>
+    <div class="clear"></div>
+    <section class="leftside">
+        <h3>Bechamel Sauce<br>Ingredients</h3> <!-- Brought from: https://forum.hawahome.com/t463583.html -->
+        <ul class="unorderedlist changelistimg">
+            <li>1/2 small glass oil</li>
+            <li>1 small glass flour</li>
+            <li>3+1/2 big glasses water</li>
+            <li>Salt</li>
+            <li>Black pepper</li>
+            <li>3 table spoon milk powder</li>
+        </ul>
+    </section>
+    </div>
+    <section class="rightside">
+        <h2> Preparation Method</h2>
+        <ol class="orderedlist"><!-- Brought from: https://forum.hawahome.com/t463583.html -->
+            <li>Roast the flour in the oil <img src="https://i.imgur.com/XIvWOJN.png" height="20px" alt="fire_img"/></li>
+            <li>Mix the milk with the water</li>
+            <li>Flow it slowly and stir them <img src="https://i.imgur.com/0y4X2Xu.png?2" height="20px" alt="stirring_img"/></li>
+            <li>Add the salt and pepper <img src="https://i.imgur.com/lFnnRwy.png?1" height="20px" alt="salt&pepper_img"/></li>
+            <li>If it needed more water, add a little more <img src="https://i.imgur.com/WY7iwsV.png?1" height="20px" alt="water_img"/></li>
+            <li>Put in the payer <img src="https://i.imgur.com/nBjnPJV.png?1" height="20px" alt="tray_img"/></li>
+            <li>Then, another layer from the pasta</li>
+            <li>Then, the pasta</li>
+            <li>Then, the last layer from the bechamel sauce</li>
+            <li>Put it in the oven for 10 min <img src="https://i.imgur.com/V0NGxh2.png?1" height="20px" alt="oven_img"/></li>
+            <li>Roast it from top</li>
+            <li>Finally, serve it <span style="font-style: italic;color:darkred">hot</span> <img src="https://i.imgur.com/TMnnII4.png?1" height="20px" alt="dish_img"/></li>
+        </ol>
+    </section>
+        <div id="imgcontainer">
+            <img id="bigimg" src="https://i.imgur.com/HtWUXlQ.jpg" alt="Pasta with Meat and Bechamel_img" />
+        </div>
+                                        <!-- Homework Assignment#1: lists is done -->
+    <h3 id="exceptionheader">Best Other Recipes</h3>
+    <ul id ="exception">
+        <li><a href="http://www.nestle-family.com/recipes/english/macaroni-pasta-with-b%C3%A9chamel_8384.aspx">Maggi Secrets Bechamel Mix</a></li>
+        <li><a href="https://amiraspantry.com/egyptian-baked-bechamel-pasta/">Egyptian Baked Bechamel PASTA : A Masterpiece</a></li>
+        <li><a href="https://www.geniuskitchen.com/recipe/egyptian-macaroni-bechamel-340357">Egyptian Macaroni Bechamel</a></li>
+        <li><a href="https://www.thespruceeats.com/pastitsio-baked-pasta-with-meat-1706031">Greek Pastitsio: Baked Pasta With Meat and Bechamel</a></li>
+        <li><a href="http://allrecipes.co.uk/recipe/20363/beef-and-pasta-b-chamel-bake.aspx">Beef and Pasta Bechamel Bake</a></li>
+    </ul>
+</body>
+</html>
